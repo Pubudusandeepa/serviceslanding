@@ -147,4 +147,7 @@
     flex-direction: column;
     justify-content: center;
   }
+  .small_logo img {
+    background-color: white;
+  }
 }
