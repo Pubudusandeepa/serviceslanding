@@ -6,6 +6,7 @@ import Features from "./container/features/Features";
 import Web from "./container/web/Web";
 import Pricing from "./container/pricing/Pricing";
 import Team from "./container/team/Team";
+import Work from "./container/work/Work";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Web />
       <Pricing />
       <Team />
+      <Work />
     </div>
   );
 }
