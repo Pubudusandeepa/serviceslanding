@@ -26,8 +26,8 @@
   box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
 }
 .pricing_content:hover {
-  top: 15px;
-  transition: 2s;
+  transform: rotate3d(0, 1, 0, 360deg);
+  transition: all 1s ease-in-out;
 }
 .pricing_content_features ul {
   list-style: none;
@@ -68,4 +68,25 @@
 span {
   color: #fb3e3e;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1150px) {
+  .pricing_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing_contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .pricing_content {
+    padding: 20px 0px;
+    position: relative;
+    width: 100%;
+  }
+  .pricing_description p {
+    padding: 0px 10px;
+    color: gray;
+  }
 }
