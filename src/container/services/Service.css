@@ -36,3 +36,13 @@
   text-align: center;
   /* line-height: 2px; */
 }
+
+@media screen and (max-width: 1150px) {
+  .section_blocks {
+    display: flex;
+    flex-direction: column;
+  }
+  .section_block {
+    flex: 1;
+  }
+}
