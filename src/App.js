@@ -5,6 +5,7 @@ import Services from "./container/services/Services";
 import Features from "./container/features/Features";
 import Web from "./container/web/Web";
 import Pricing from "./container/pricing/Pricing";
+import Team from "./container/team/Team";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <Web />
       <Pricing />
+      <Team />
     </div>
   );
 }
