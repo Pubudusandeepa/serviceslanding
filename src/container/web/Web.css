@@ -1,6 +1,8 @@
 .web_wrapper_container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url("../../assets/img-1.jpg");
   height: 50vh;
   position: relative;
@@ -8,12 +10,7 @@
   background-size: cover;
   background-position: center;
 }
-.web_wrapper_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+
 .background {
   background: linear-gradient(to right, #512da8, #711e72);
   height: 100%;
@@ -48,4 +45,18 @@
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+@media screen and (max-width: 1150px) {
+  .web_wrapper_container {
+    height: 60vh;
+  }
+  .web_wrapper_description h2 {
+    padding: 0px 50px;
+    text-align: center;
+  }
+  .web_wrapper_description p {
+    padding: 0 20px;
+    font-size: 15px;
+  }
 }
