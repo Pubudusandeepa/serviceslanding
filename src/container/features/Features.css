@@ -35,7 +35,7 @@
   padding: 10px 0px;
   color: gray;
 }
-ul li::before {
+.future_list ul li::before {
   color: red;
   content: "\2022";
   font-weight: bold;
