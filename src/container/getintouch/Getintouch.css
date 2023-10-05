@@ -75,3 +75,30 @@
 .getintouch_address h3 {
   font-size: 15px;
 }
+
+@media screen and (max-width: 1150px) {
+  .getintouch_wrapper {
+    padding: 50px 10px;
+  }
+  .getintouch_formsection {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .getintouch_address {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .getintouch_address p {
+    text-align: start;
+  }
+  .getintouch_address ul {
+    padding: 0;
+  }
+  .getintouch_form {
+    width: 100%;
+  }
+}
