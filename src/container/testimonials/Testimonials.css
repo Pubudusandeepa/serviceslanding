@@ -13,7 +13,12 @@
 .testimonials_cards {
   display: flex;
   flex-direction: row;
+
   padding: 0 50px;
+}
+.red_line {
+  width: 5%;
+  border: 1px solid #fb3e3e;
 }
 .testimonials_card {
   display: flex;
@@ -56,6 +61,10 @@
 .testimonials_description p {
   text-align: center;
   color: gray;
+}
+.testimonials_card:hover {
+  transform: translateY(-10px);
+  transition: all 1s ease-in-out;
 }
 
 @media screen and (max-width: 1150px) {
