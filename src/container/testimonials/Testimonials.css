@@ -59,4 +59,18 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .testimonials_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+  }
+  .testimonials_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .testimonials_card {
+    width: 100%;
+    padding: 50px 0px;
+  }
 }
