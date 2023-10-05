@@ -56,3 +56,20 @@
   border-radius: 15px;
   color: white;
 }
+
+@media screen and (max-width: 1150px) {
+  .blog_section_cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog_ssection_card {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .blog_section_wrapper {
+    padding: 50px 20px;
+  }
+  .blog_section_description p {
+    text-align: center;
+  }
+}
