@@ -67,6 +67,7 @@
   justify-content: center;
 }
 .getintouch_introduction p {
+  padding: 0px 100px;
   color: gray;
 }
 .getintouch_address p {
@@ -100,5 +101,8 @@
   }
   .getintouch_form {
     width: 100%;
+  }
+  .getintouch_introduction p {
+    padding: 0px 10px;
   }
 }
