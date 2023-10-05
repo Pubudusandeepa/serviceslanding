@@ -4,5 +4,14 @@ import icons from "./icons/index.js";
 import online from "./online-world.svg";
 import web_background from "./img-1.jpg";
 import team from "./team/index.js";
+import test from "./testimonials/index.js";
 
-export default { background, bottom, icons, online, web_background, team };
+export default {
+  background,
+  bottom,
+  icons,
+  online,
+  web_background,
+  team,
+  test,
+};
