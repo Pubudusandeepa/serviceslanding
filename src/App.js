@@ -9,6 +9,7 @@ import Team from "./container/team/Team";
 import Work from "./container/work/Work";
 import Testtimonials from "./container/testimonials/Testtimonials";
 import Getstart from "./container/getstart/Getstart";
+import Blog from "./container/blog/Blog";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Work />
       <Testtimonials />
       <Getstart />
+      <Blog />
     </div>
   );
 }

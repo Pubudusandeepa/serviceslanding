@@ -5,6 +5,7 @@ import online from "./online-world.svg";
 import web_background from "./img-1.jpg";
 import team from "./team/index.js";
 import test from "./testimonials/index.js";
+import blog from "./blog/index.js";
 
 export default {
   background,
@@ -14,4 +15,5 @@ export default {
   web_background,
   team,
   test,
+  blog,
 };

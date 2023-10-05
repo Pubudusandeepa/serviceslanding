@@ -51,3 +51,11 @@
   top: 0;
   opacity: 0.9;
 }
+@media screen and (max-width: 1150px) {
+  .getstart_section {
+    height: 70vh;
+  }
+  .getstart_wrapper {
+    padding: 50px 30px;
+  }
+}
