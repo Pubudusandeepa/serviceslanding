@@ -1,0 +1,43 @@
+.social_section {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8fbff;
+}
+.social_wrapper {
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_icons {
+  display: flex;
+  flex-direction: row;
+}
+.social_wrapper img {
+  width: 40px;
+  height: 40px;
+  padding: 0px 5px;
+}
+.social_phone,
+.social_email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.social_phone p,
+.social_email p {
+  color: gray;
+}
+.social_icons img:hover {
+  color: #fb3e3e;
+}
+@media screen and (max-width: 1150px) {
+  .social_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px 60px;
+  }
+}

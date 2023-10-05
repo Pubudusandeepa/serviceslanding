@@ -9,6 +9,12 @@ import arrow from "./arrow.png";
 import id from "./id-card.png";
 import aim from "./target.png";
 import edit from "./edit.png";
+import facebook from "./facebook.png";
+import google from "./google-plus.png";
+import linkedin from "./social.png";
+import twitter from "./twitter.png";
+import email from "./mail.png";
+import phone from "./phone.png";
 
 export default {
   plane,
@@ -22,4 +28,10 @@ export default {
   id,
   aim,
   edit,
+  facebook,
+  google,
+  linkedin,
+  twitter,
+  email,
+  phone,
 };

@@ -11,6 +11,7 @@ import Testtimonials from "./container/testimonials/Testtimonials";
 import Getstart from "./container/getstart/Getstart";
 import Blog from "./container/blog/Blog";
 import Getintouch from "./container/getintouch/Getintouch";
+import Social from "./container/social/Social";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Getstart />
       <Blog />
       <Getintouch />
+      <Social />
     </div>
   );
 }
