@@ -28,7 +28,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="blog_ssection_card">
-            <img src={images.blog.blg1} alt="blog1" />
+            <img src={images.blog.blg2} alt="blog1" />
             <p>UI & UX Design</p>
             <div className="section_card_details">
               <h3>Doing a cross country road trip</h3>
@@ -40,7 +40,7 @@ const Blog = () => {
             </div>
           </div>
           <div className="blog_ssection_card">
-            <img src={images.blog.blg1} alt="blog1" />
+            <img src={images.blog.blg3} alt="blog1" />
             <p>UI & UX Design</p>
             <div className="section_card_details">
               <h3>Doing a cross country road trip</h3>

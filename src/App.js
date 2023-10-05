@@ -10,6 +10,7 @@ import Work from "./container/work/Work";
 import Testtimonials from "./container/testimonials/Testtimonials";
 import Getstart from "./container/getstart/Getstart";
 import Blog from "./container/blog/Blog";
+import Getintouch from "./container/getintouch/Getintouch";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Testtimonials />
       <Getstart />
       <Blog />
+      <Getintouch />
     </div>
   );
 }
